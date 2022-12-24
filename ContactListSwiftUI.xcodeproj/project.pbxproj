@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5170EA7F29550D9D0091F444 /* PersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5170EA7E29550D9D0091F444 /* PersonInfoView.swift */; };
 		517E24652954C13B00484C49 /* ContactListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517E24642954C13B00484C49 /* ContactListSwiftUIApp.swift */; };
 		517E24672954C13C00484C49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517E24662954C13C00484C49 /* ContentView.swift */; };
 		517E24692954C13F00484C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517E24682954C13F00484C49 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5170EA7E29550D9D0091F444 /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
 		517E24612954C13B00484C49 /* ContactListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517E24642954C13B00484C49 /* ContactListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSwiftUIApp.swift; sourceTree = "<group>"; };
 		517E24662954C13C00484C49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				517E24662954C13C00484C49 /* ContentView.swift */,
 				517E24862954DFD700484C49 /* ContactsView.swift */,
 				517E248A2954E01800484C49 /* ContactInfoView.swift */,
-				5170EA7E29550D9D0091F444 /* PersonInfoView.swift */,
 				517E24882954DFE900484C49 /* NumbersView.swift */,
 			);
 			path = Views;
@@ -192,7 +189,6 @@
 				517E247D2954C76B00484C49 /* DataStore.swift in Sources */,
 				517E24672954C13C00484C49 /* ContentView.swift in Sources */,
 				517E24892954DFE900484C49 /* NumbersView.swift in Sources */,
-				5170EA7F29550D9D0091F444 /* PersonInfoView.swift in Sources */,
 				517E24872954DFD700484C49 /* ContactsView.swift in Sources */,
 				517E24652954C13B00484C49 /* ContactListSwiftUIApp.swift in Sources */,
 			);

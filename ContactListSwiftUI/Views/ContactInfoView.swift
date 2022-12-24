@@ -21,7 +21,8 @@ struct ContactInfoView: View {
             }
             .padding()
             
-            PersonInfoView(person: person)
+            Label(person.phone, systemImage: "phone")
+            Label(person.email, systemImage: "envelope")
         }
         .navigationTitle(person.fullName)
         .listStyle(.grouped)
@@ -30,6 +31,6 @@ struct ContactInfoView: View {
 
 struct ContactInfoView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactInfoView(person: Person.getPersonsList()[0])
+        ContactInfoView(person: Person.getPersonsList().first!)
     }
 }

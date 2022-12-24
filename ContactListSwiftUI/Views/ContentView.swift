@@ -23,6 +23,7 @@ struct ContentView: View {
                     Image(systemName: "phone")
                     Text("Numbers")
                 }
+            
         }
     }
 }

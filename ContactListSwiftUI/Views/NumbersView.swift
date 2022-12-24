@@ -12,15 +12,14 @@ struct NumbersView: View {
     
     var body: some View {
         NavigationStack {
-            List {
-                ForEach(persons) { person in
-                    Section(person.fullName) {
-                        PersonInfoView(person: person)
-                    }
+            List(persons) { person in
+                Section(person.fullName) {
+                    Label(person.phone, systemImage: "phone")
+                    Label(person.email, systemImage: "envelope")
                 }
             }
-            .navigationTitle("Contact List")
         }
+        .navigationTitle("Contact List")
     }
 }
 
