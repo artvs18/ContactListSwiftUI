@@ -17,13 +17,13 @@ struct Person: Identifiable {
     }
     
     static func getPersonsList() -> [Person] {
+        var persons: [Person] = []
+        
         let names = DataStore.shared.names.shuffled()
         let surnames = DataStore.shared.surnames.shuffled()
         let emails = DataStore.shared.emails.shuffled()
         let phones = DataStore.shared.phones.shuffled()
 
-        var persons: [Person] = []
-        
         let iterationCount = min(
             names.count,
             surnames.count,
@@ -33,7 +33,7 @@ struct Person: Identifiable {
         
         for index in 0..<iterationCount {
             let person = Person(
-                id: index,
+                id: index + 1,
                 name: names[index],
                 surname: surnames[index],
                 email: emails[index],
